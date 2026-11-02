@@ -1,0 +1,15 @@
+CHECKLIST ติดตั้ง Student AI Assistant
+
+[ ] แตก ZIP
+[ ] สร้าง D1 ชื่อ student-ai-assistant-db
+[ ] ใส่ Database ID จริงใน wrangler.jsonc แล้ว Commit
+[ ] ใช้ Wrangler รัน migration: npm install, npx wrangler login, npm run db:apply
+[ ] อัปโหลดโปรเจกต์ทั้งหมดไป GitHub repository student-ai-assistant-db
+[ ] เชื่อม GitHub repository กับ Cloudflare Workers
+[ ] ตั้งชื่อ Worker student-ai-assistant-db-api
+[ ] ตั้ง Secret ADMIN_PASSWORD
+[ ] (ไม่บังคับ) ตั้ง Secret GEMINI_API_KEY
+[ ] Deploy สำเร็จ
+[ ] เปิด /api/health ต้องได้ ok=true และ database=connected
+[ ] ทดสอบหน้าเว็บ / และหน้า Admin /admin.html
+[ ] เปลี่ยน FAQ ตัวอย่างเป็นข้อมูลจริงก่อนใช้งาน

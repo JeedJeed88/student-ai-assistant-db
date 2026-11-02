@@ -1,0 +1,1 @@
+{"name":"student-ai-assistant-db","version":"1.0.1","private":true,"scripts":{"dev":"wrangler dev","deploy":"wrangler deploy","db:apply":"wrangler d1 migrations apply student-ai-assistant-db --remote","db:local":"wrangler d1 migrations apply student-ai-assistant-db --local"},"devDependencies":{"wrangler":"^4.0.0"}}

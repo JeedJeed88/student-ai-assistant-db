@@ -1,0 +1,3 @@
+# Copy to .dev.vars for local tests only. Never commit real secrets.
+GEMINI_API_KEY=put-your-gemini-api-key-here
+ADMIN_PASSWORD=change-this-to-a-long-password
