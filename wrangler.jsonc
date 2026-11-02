@@ -7,7 +7,7 @@
   "d1_databases": [{
     "binding": "DB",
     "database_name": "student-ai-assistant-db",
-    "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+    "database_id": "16c85ae6-099d-4dbd-abfc-5d858d569435",
     "migrations_dir": "migrations"
   }]
 }
